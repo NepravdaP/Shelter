@@ -1,0 +1,128 @@
+.wrapper {
+    min-height: 100vh;
+}
+.logo-heading-pets {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+ .our-pets {
+    background-color: #fff;
+    height: 120px ;
+    position: static;
+    /* x */
+
+ } 
+
+.logo-p-pets {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #292929;
+}
+
+.nav-link-pets{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #545454;
+    text-decoration: none;
+}
+.pets-link-active {
+    color: #292929;
+    border-bottom: 3px solid #F1CDB3;
+
+}
+.pets-main {
+    
+    background-color: #F6F6F6
+}
+.pets-section {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px   ;
+}
+.pets-heading {
+    width: 400px;
+    padding-top: 80px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.pets-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px   ;
+    
+}
+.pagination-block {
+    display: flex;
+    justify-content: center;
+    gap: 20px   ;
+    padding-bottom: 100px;
+    
+}
+.round-btn {
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 100px;
+    background-color: transparent;
+}
+.begin-btn,.backward-btn {
+    border: 2px solid #cdcdcd;
+    color: #cdcdcd;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+}
+.forward-btn , .end-btn {
+    border: 2px solid #F1CDB3;
+    color: #292929;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+}
+.pets-page-num {
+    border: 2px solid  #F1CDB3;
+    background-color: #F1CDB3;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    letter-spacing: 0.06em;
+}
+.num {
+    color: #292929 ;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+}
+footer {
+    position: sticky;
+    bottom: 0;
+}
