@@ -14,16 +14,33 @@
           <h1 class="logo-heading">Cozy House</h1>
           <p class="logo-p">Shelter for pets in Boston</p>
         </div>
-        <nav>
+        <nav class="big-res-nav">
           <ul class="nav-list">
             <li>
               <a href="" class="nav-link nav-link-active">About the shelter</a>
             </li>
             <li><a href="./pages/pets.html" class="nav-link">Our pets</a></li>
-            <li><a href="" class="nav-link">Help the shelter</a></li>
-            <li><a href="" class="nav-link">Contacts </a></li>
+            <li><a href="#help" class="nav-link">Help the shelter</a></li>
+            <li><a href="#contacts" class="nav-link">Contacts </a></li>
           </ul>
         </nav>
+        <div class="burger-menu">
+          <div class="line burger-line1 "></div>
+          <div class="line burger-line2 "></div>
+          <div class="line burger-line3 "></div>
+        </div>
+        <div class="menu-block">
+          <nav class="low-res-nav">
+            <ul class="nav-list-block">
+              <li class="menu-block-item">
+                <a href="" class="nav-link nav-link-active">About the shelter</a>
+              </li>
+              <li class="menu-block-item"><a href="./pages/pets.html" class="nav-link">Our pets</a></li>
+              <li class="menu-block-item"><a href="#help" class="nav-link">Help the shelter</a></li>
+              <li class="menu-block-item"><a href="#contacts" class="nav-link">Contacts </a></li>
+            </ul>
+          </nav> 
+        </div>
       </header>
       <main>
         <section class="doggo-section">
@@ -36,6 +53,7 @@
             </p>
             <button class="doggo-content-btn">Make a friend</button>
           </div>
+          <img src="./assets/png/start-screen-puppy.png" alt="puppy" class="puppy-png" >
         </section>
         <section class="about-section">
           <img
@@ -117,7 +135,7 @@
             <button class="puppy-btn">Get to know the rest</button>
           </div>
         </section>
-        <section class="help-section">
+        <section class="help-section" id="help">
           <div class="help-content">
             <h2 class="help-heading">How you can help our shelter</h2>
             <div class="icon-box">
@@ -192,7 +210,7 @@
           </div>
         </section>
       </main>
-      <footer>
+      <footer id="contacts">
         <div class="footer-content">
           <div class="footer-contacts">
             <h2 class="contacts-heading">For questions and suggestions</h2>
@@ -226,5 +244,6 @@
         </div>
       </footer>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
